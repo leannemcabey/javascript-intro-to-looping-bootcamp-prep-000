@@ -11,5 +11,12 @@
 
 
 function forLoop(array) {
-  return "I am the forLoop"
+  for (var i = 0, i < 25, i++) {
+    if (i === 1) {
+      array.push(`I am ${i} strange loop.`)
+    }
+    else {
+      
+    }
+  }
 }
