@@ -18,8 +18,8 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
-  var i = 0
   do {
-    
+    arry.pop(array[0])
   }
+  while array.length > 0
 }
