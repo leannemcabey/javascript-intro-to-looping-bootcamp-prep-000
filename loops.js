@@ -33,7 +33,7 @@ do {
 
 function doWhileLoop(array) {
   do {
-    arry.pop(array[0])
+    array.pop(array[0])
   }
   while (array.length > 0 && incrementVariable())
   return array
