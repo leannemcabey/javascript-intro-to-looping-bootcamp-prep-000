@@ -10,6 +10,7 @@ function forLoop(array) {
   return array
 }
 
+
 function whileLoop(n) {
   while (n > 0) {
     console.log(n--)
@@ -17,9 +18,22 @@ function whileLoop(n) {
   return "done"
 }
 
+
+var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+}
+ 
+do {
+  console.log("doo-bee-doo-bee-doo");
+  incrementVariable();
+} while (i < 5);
+
+
 function doWhileLoop(array) {
   do {
     arry.pop(array[0])
   }
-  while array.length > 0
+  while (array.length > 0 && incrementVariable())
 }
