@@ -8,3 +8,8 @@
 //   }
 //   return array
 // }
+
+
+function forLoop(array) {
+  return "I am the forLoop"
+}
